@@ -3,8 +3,8 @@
 
         <Proxy "balancer://mycluster">
                 
-                BalancerMember http://172.31.92.139/index.php loadfactor=5 timeout=1
-                BalancerMember http://172.31.90.208/index.php loadfactor=5 timeout=1
+                BalancerMember http://172.31.10.232/index.php loadfactor=5 timeout=1
+                BalancerMember http://172.31.12.22/index.php loadfactor=5 timeout=1
                ProxySet lbmethod=bytraffic
                # ProxySet lbmethod=byrequests
         </Proxy>
