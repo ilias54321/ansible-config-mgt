@@ -4,5 +4,5 @@ enable_apache_lb: false
 load_balancer_is_required: false
 
 # DNS mapping for webservers
-web1: 172.31.15.177
-web2: 172.31.3.2
+web1: 172.31.10.232
+web2: 172.31.12.22
