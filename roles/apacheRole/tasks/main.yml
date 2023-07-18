@@ -28,7 +28,7 @@
 - name: Copy configuration file
   become: yes
   template:
-    src: apache.conf.j2
+    src: vhosts.conf.j2
     dest: /etc/apache2/sites-available/000-default.conf
     owner: root
     group: root
